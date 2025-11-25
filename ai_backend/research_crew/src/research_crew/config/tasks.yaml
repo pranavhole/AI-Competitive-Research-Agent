@@ -1,0 +1,31 @@
+competitor_research_task:
+  agent: researcher_agent
+  description: >
+    Research and identify top competitors for {{startup}}. Provide:
+    - Competitor Name
+    - Competitor URL
+    - Short Summary
+    making sure to cover various market segments and emerging players. with a focus on innovation and unique value propositions.
+    identify at least 5 key competitors that pose a significant challenge to {{startup}}'s market position.
+    Market segments to consider include direct competitors, indirect competitors, and potential disruptors.
+  expected_output: >
+    A list of competitors with names, URLs, and short summaries.
+
+competitor_analysis_task:
+  agent: analyst_agent
+  description: >
+    summaries and insights based on the research data provided by the researcher_agent.
+    Produce a comprehensive market intelligence report for {{startup}} that includes:
+    - Market Positioning: Analyze where {{startup}} stands in relation to its competitors.
+    - Feature Comparisons: Detailed comparison of key features and offerings.
+    - SWOT Analyses: Strengths, Weaknesses, Opportunities, and Threats for
+      {{startup}} in the context of the competitive landscape.
+    - Opportunities: Identify potential market opportunities and gaps that {{startup}} can leverage.
+    Also Provide the key findings in a clear and structured markdown format.
+    Make the report short, concise, and focused on actionable insights.
+    key sections should be well-organized with headings and bullet points for easy readability.
+
+  expected_output: >
+    A detailed market intelligence report in markdown format covering the specified sections. should not contain any tables.
+    important: avoid using tables in the report; use bullet points and headings instead.
+    The report should be concise and focused on actionable insights.

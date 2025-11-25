@@ -1,0 +1,89 @@
+# ===== Python =====
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Pytest / coverage / mypy
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.pyre/
+nosetests.xml
+coverage.xml
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+
+# Environment variables
+.env
+.env.*.local
+.python-version
+
+# Misc
+celerybeat-schedule
+instance/
+.webassets-cache/
+htmlcov/
+*.log
+
+# ===== Next.js / Node =====
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Build folders
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (local only)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel / deployments
+.vercel/
+.now/
+
+# Misc
+.DS_Store
+Thumbs.db
+.cache/
+.pnpm-store/
+*.log
